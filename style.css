@@ -50,10 +50,33 @@ position: relative;
 top: 30px;
 background: none;
 }
-#h1{
+#h1>p{
     display: inline;
     position: relative;
-    top: 50%;
+    top: 250px;
+    left: 410px;
+    font-size: 50px;
 
 }
+#contant>p{
+display: inline;
+position: relative;
+top: 290px;
+left: 320px;
+font-size: 20px;
+}
+#button>button{
+    display: inline;
+    position: relative;
+    top: 330px;
+    left: 520px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
 
+}
+#button>button:hover{
+    background-color: rgb(93, 125, 128);
+
+}
