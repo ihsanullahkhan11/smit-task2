@@ -1,0 +1,59 @@
+.full-body{
+    /* background-image: url(./home-page.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+background-image: linear-gradient(rgba(0,0, 0, 0.66), rgba(0, 0, 0, 0.50)), url(./home-page.jpg) ;
+    
+    
+}
+
+*{
+    color: aliceblue;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+nav{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+
+
+}
+
+nav>ul{
+
+
+display: inline;
+position: relative;
+left: 75%;
+color: white;
+border: none;
+
+top: 30px;
+background: none;
+margin: 10px;
+
+}
+nav>ul:hover{
+    border-bottom: 4px solid aqua;
+
+
+}
+nav>h1{
+    display: inline;
+position: relative;
+top: 30px;
+background: none;
+}
+#h1{
+    display: inline;
+    position: relative;
+    top: 50%;
+
+}
+
